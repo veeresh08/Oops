@@ -9,7 +9,7 @@ public class VehicleUse {
 		Vehicle v = new Car(4,100);
 		Scanner s = new Scanner(System.in);
 		int n = s.nextInt();
-		int n = s.nextInt();
+		
 		if(n<10) {
 			v = new Car(4,100);
 		}else {
