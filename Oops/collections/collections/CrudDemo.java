@@ -110,7 +110,6 @@ public static void main(String[] args) {
 						
 						System.out.println("Enter new salary : ");
 						salary = sc.nextInt();
-						
 						li.set(new Employee(eno,ename,salary));
 						found11 = true;
 					}
@@ -119,7 +118,7 @@ public static void main(String[] args) {
 				if(!found11) {
 					System.out.println("Record not found");
 				}else {
-					System.out.println("Recor is deleted sucessfully");
+					System.out.println("Recor is updated sucessfully");
 				}
 				System.out.println("--------------------------------");
 				break;
