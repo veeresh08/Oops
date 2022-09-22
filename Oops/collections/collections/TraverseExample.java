@@ -69,6 +69,9 @@ public static void main(String[] args) {
 	System.out.println("_____________For each method_______________");
 	
 	//for each method
+	for(String str:names) {
+		System.out.println(str);
+	}
 	
 	names.forEach(e->{
 		System.out.println(e);

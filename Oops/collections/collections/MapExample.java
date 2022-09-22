@@ -19,6 +19,7 @@ public class MapExample {
 //			System.out.println(e1+"=>"+e2);
 //		});
 		
+
 		courses.forEach((key,value)->{
 			System.out.print(key);
 			System.out.print("=>");
