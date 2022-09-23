@@ -1,6 +1,7 @@
 package collections;
 
 /*1. Develop a java class with a instance variable M1 (HashMap) 
+
  *  create a method saveCountryCapital(String CountryName, String capital) , 
     the method should add the passed country and capital as key/value in the map M1 and return the Map (M1).
 Key- Country                          Value - Capital
@@ -44,12 +45,19 @@ class CountryMap {
 		Set<Entry<String, String>> set = M1.entrySet();
 		Iterator<Entry<String, String>> itr = set.iterator();
 		
-		while (itr.hasNext()) {
-			Entry<String, String> e = itr.next();
-			
-			if (e.getValue().equals(capitalName))
-				return e.getKey();
+		//Map<Integer, Integer> map = new HashMap<Integer, Integer>();
+
+		// Iterating over keys only
+		for (String key : M1.keySet()) {
+			return key;
 		}
+		
+//		while (itr.hasNext()) {
+//			Entry<String, String> e = itr.next();
+//			
+//			if (e.getValue().equals(capitalName))
+//				return e.getKey();
+//		}
 		
 		return null;
 	}
